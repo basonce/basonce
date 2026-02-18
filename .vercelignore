@@ -1,0 +1,13 @@
+node_modules
+.env.local
+.DS_Store
+*.log
+dist
+.vite
+generate-wallets-bulk.js
+generate-tron-wallets.js
+generate-wallet.js
+*.md
+!README.md
+setup-master-wallet.sql
+reset-my-mining.sql

@@ -1,0 +1,55 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0E11"/>
+      <stop offset="100%" stop-color="#141820"/>
+    </linearGradient>
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="50%" stop-color="#0099FF"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#0099FF"/>
+      <stop offset="100%" stop-color="#0066FF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow-effect">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg-gradient)"/>
+
+  <circle cx="900" cy="200" r="300" fill="#0099FF" opacity="0.03"/>
+  <circle cx="300" cy="500" r="200" fill="#00D4FF" opacity="0.02"/>
+
+  <rect x="0" y="0" width="1200" height="4" fill="url(#logo-grad)"/>
+
+  <g transform="translate(440, 160)" filter="url(#glow-effect)">
+    <path d="M 40 160 L 40 40 L 110 40 C 130 40 144 54 144 74 C 144 86 138 96 130 102 C 142 108 150 120 150 136 C 150 156 138 160 118 160 L 40 160 Z M 70 90 L 100 90 C 108 90 114 84 114 76 C 114 68 108 62 100 62 L 70 62 L 70 90 Z M 70 138 L 106 138 C 114 138 120 132 120 124 C 120 116 114 110 106 110 L 70 110 L 70 138 Z"
+          fill="url(#logo-grad)" />
+    <path d="M 156 60 L 176 100 L 156 140"
+          stroke="url(#logo-grad)"
+          stroke-width="6"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          fill="none" />
+    <circle cx="175" cy="100" r="5" fill="#00D4FF" />
+
+    <text x="200" y="115" font-family="system-ui, -apple-system, Arial, sans-serif" font-size="72" font-weight="800" fill="white" letter-spacing="6">ASONCE</text>
+  </g>
+
+  <text x="600" y="380" text-anchor="middle" font-family="system-ui, -apple-system, Arial, sans-serif" font-size="24" font-weight="400" fill="#848E9C" letter-spacing="8">EXCHANGE</text>
+
+  <line x1="200" y1="420" x2="1000" y2="420" stroke="url(#line-grad)" stroke-width="1"/>
+
+  <text x="600" y="475" text-anchor="middle" font-family="system-ui, -apple-system, Arial, sans-serif" font-size="32" font-weight="600" fill="#EAECEF">Kripto Para Borsasi</text>
+  <text x="600" y="520" text-anchor="middle" font-family="system-ui, -apple-system, Arial, sans-serif" font-size="20" fill="#848E9C">Bitcoin  |  Ethereum  |  200+ Kripto Para  |  Vadeli Islem  |  Mining</text>
+
+  <rect x="0" y="626" width="1200" height="4" fill="url(#logo-grad)"/>
+</svg>
